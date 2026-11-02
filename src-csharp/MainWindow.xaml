@@ -1,0 +1,18 @@
+<Window x:Class="ScreenAudioVisualizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        Title="Edge Audio Visualizer - Dynamic Island &amp; Controls"
+        Height="56" Width="440"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="{x:Null}"
+        Topmost="True"
+        ResizeMode="NoResize"
+        ShowInTaskbar="True">
+    <Grid Background="{x:Null}">
+        <!-- CompositionControl: se dibuja dentro del árbol visual de WPF (sin HWND hijo),
+             así la ventana con AllowsTransparency recibe los clics sobre la isla. -->
+        <wv2:WebView2CompositionControl Name="webViewControl" DefaultBackgroundColor="Transparent" />
+    </Grid>
+</Window>

@@ -1,0 +1,19 @@
+# Dependencias y builds del frontend
+node_modules/
+dist/
+
+# Builds de .NET
+src-csharp/bin/
+src-csharp/obj/
+.vs/
+*.user
+
+# Salidas de publicación y paquetes para compartir (se suben como Release en GitHub, no al repo)
+app/
+publish/
+release/
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store

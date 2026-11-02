@@ -1,0 +1,30 @@
+EDGE AUDIO VISUALIZER
+=====================
+
+Luces y efectos en los bordes de tu pantalla que bailan con la música que suena en tu PC.
+
+CÓMO ABRIRLO
+------------
+1. Haz doble clic en "EdgeAudioVisualizer.exe".
+2. Si Windows muestra "Windows protegió su PC", haz clic en "Más información"
+   y luego en "Ejecutar de todas formas". (Aparece porque el programa es nuevo
+   y no está firmado, no porque tenga virus.)
+3. Pon música (Spotify, YouTube, lo que quieras) y verás los bordes moverse.
+
+CÓMO USARLO
+-----------
+- Arriba en el centro aparece una pastilla negra con la canción que suena.
+- Haz clic en "Ajustes" para cambiar el estilo, los colores, el grosor y la sensibilidad.
+- El programa nunca bloquea el ratón: puedes seguir usando la PC normal.
+- Para cerrarlo: clic derecho en su icono junto al reloj de Windows > "Salir".
+
+TENER UN ACCESO DIRECTO
+-----------------------
+Clic derecho en "EdgeAudioVisualizer.exe" > "Mostrar más opciones" > "Enviar a"
+> "Escritorio (crear acceso directo)".
+
+IMPORTANTE
+----------
+- No borres ni muevas la carpeta "dist" que está junto al programa: ahí está su interfaz.
+- Funciona en Windows 10 y Windows 11 (64 bits).
+- Si dice que falta "WebView2", acepta abrir la página, instálalo y vuelve a abrir el programa.
